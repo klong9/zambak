@@ -36,14 +36,11 @@
         ></recView>
       </div>
     </div>
-    <!-- 底部导航栏 -->
-    <navigation class="nav"></navigation>
   </div>
 </template>
 
 <script>
 import TopTitle from "./TopTitle.vue";
-import navigation from "./navigation.vue";
 import recView from "./recView.vue";
 export default {
   data() {
@@ -73,7 +70,6 @@ export default {
   },
   components: {
     TopTitle,
-    navigation,
     recView,
   },
 };

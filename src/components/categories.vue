@@ -36,12 +36,10 @@
       </div>
     </div>
 
-    <navigation class="nav"></navigation>
   </div>
 </template>
 
 <script>
-import navigation from "./navigation.vue";
 import TopTitle from "./TopTitle.vue";
 
 export default {
@@ -93,7 +91,6 @@ export default {
     },
   },
   components: {
-    navigation,
     TopTitle,
   },
   filters: {

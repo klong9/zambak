@@ -112,8 +112,6 @@ export default {
           border-radius: 3.2vw;
         }
         .right_icon {
-            color: #fff;
-
           i {
             font-size: 5.3333vw;
             color: #fff;
@@ -122,5 +120,6 @@ export default {
       }
     }
   }
+
 }
 </style>

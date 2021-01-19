@@ -94,13 +94,11 @@
       </div>
       <div class="success_but" @click="offSuccess">Done</div>
     </div>
-    <navigation class="nav"></navigation>
   </div>
 </template>
 
 <script>
 import TopTitle from "./TopTitle.vue";
-import navigation from "./navigation.vue";
 import { Toast } from "vant";
 
 export default {
@@ -143,7 +141,6 @@ export default {
     },
   },
   components: {
-    navigation,
     TopTitle,
   },
   filters: {

@@ -69,13 +69,10 @@
         </div>
       </div>
     </div>
-    <!-- 底部导航栏 -->
-    <navigation class="nav"></navigation>
   </div>
 </template>
 
 <script>
-import navigation from "./navigation.vue";
 import TopTitle from "./TopTitle.vue";
 export default {
   data() {
@@ -122,7 +119,6 @@ export default {
     
   },
   components: {
-    navigation,
     TopTitle,
   },
   filters: {

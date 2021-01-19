@@ -42,13 +42,11 @@
         </div>
       </div>
     </div>
-    <navigation class="nav"></navigation>
   </div>
 </template>
 
 <script>
 import TopTitle from "./TopTitle.vue";
-import navigation from "./navigation.vue";
 
 export default {
   props: [],
@@ -108,7 +106,6 @@ export default {
     },
   },
   components: {
-    navigation,
     TopTitle,
   },
   filters: {

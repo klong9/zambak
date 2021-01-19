@@ -1,12 +1,30 @@
 <template>
   <div id="app">
     <router-view/>
+    <navigation v-show="isNavShow"></navigation>
   </div>
 </template>
 
 <script>
+import navigation from "./components/navigation.vue";
+
 export default {
-  name: 'App'
+  components: { navigation },
+  name: 'App',
+ data(){
+   return{
+   }
+ },
+ computed:{
+   isNavShow(){
+     if(this.$route.name==='welcome'||this.$route.name==='signIn'){
+       return false;
+
+     }else{
+       return true
+     }
+   }
+ }
 }
 </script>
 
